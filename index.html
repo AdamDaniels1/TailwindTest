@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./dist/output.css" rel="stylesheet">
+    <title>Albion Fake Site</title>
+</head>
+<body class="bg-purple-200">
+    <div class="bg-white flex items-center hover:cursor-pointer">
+        <img src="./images/purpleagle.png" alt="Image placeholder for purple eagle" class="w-24 h-24 mr-4 ml-2"></img>
+        <div><h1 class="text-6xl font-bold text-purple-900 font-serif">
+        Albion Central Schools
+      </h1>
+      <p class="text-purple-900 text-2xl font-serif italic">Excellence in motion ... or something</p>
+      </div>
+      <div id="weather-widget" class="text-lg text-purple-900 shadow-sm font-sans font-semibold ml-auto mr-4">
+        Temperature: <span id="temperature"></span>°F
+      </div>
+    </div>
+    <div class=" bg-purple-700">
+<ul class="flex items-center">
+    <li class="text-2xl p-2 font-sans font-thin text-white hover:bg-purple-900 hover:cursor-pointer">HOME</li>
+    <li class="text-2xl p-2 font-sans font-thin  text-white hover:bg-purple-900 hover:cursor-pointer">EXPLORE</li>
+    <li class="text-2xl p-2 font-sans font-thin  text-white hover:bg-purple-900 hover:cursor-pointer">SCHOOLS</li>
+    <li class="text-2xl p-2 font-sans font-thin  text-white hover:bg-purple-900 hover:cursor-pointer">STAFF DIRECTORY</li>
+    <ul class="ml-auto">
+        <li class="text-2xl pr-1 font-sans font-extrabold text-white">Suicide and Crisis Line: Dial 988</li></ul>
+    </ul>
+</div>
+<div class="w-screen relative">
+    <div class="carousel-container relative">
+        <div class="relative">
+        <img src="./images/purple1.png" alt="Image 1" class="carousel-slide w-full h-96">
+        <img src="./images/purple2.png" alt="Image 2" class="carousel-slide w-full h-96 hidden">
+        <img src="./images/purple3.png" alt="Image 3" class="carousel-slide w-full h-96 hidden">
+        <!-- Add more images as needed -->
+        <button class="carousel-button prev-button left-0 bottom-0 absolute">
+            Back
+          </button>
+          <div class="flex justify-center space-x-2 absolute bottom-4 left-1/2 transform -translate-x-1/2">
+            <button class="dot active-dot"></button>
+            <button class="dot"></button>
+            <button class="dot"></button>
+          </div>
+          <button class="carousel-button next-button right-0 bottom-0 absolute">
+            Forward
+          </button>
+          </div>
+    </div>
+</div>
+<div>
+    
+    </div>
+    <div class="flex justify-center items-center mt-8">
+        <h1 class="font-sans text-3xl text-purple-800 font-extrabold">Our Top Students Weigh In</h1>
+      </div>
+      
+    <!-- <div class="flex justify-center items-center min-h-screen"> -->
+    <div class="grid justify-around grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-14">
+        
+        <!-- Card 1 -->
+        <div class="max-w-sm rounded overflow-hidden shadow-lg my-5">
+            <img src="./images/Photo1.png" alt="" class="w-full grayscale"/>
+            <div class="px-6 py-4">
+                <div class="font-bold text-purple-500 text-xl mb-2">''I've now been in 57 states — I think one left to go.''</div>
+            </div>
+        </div>
+
+        <!-- Card 2 (Repeat this structure for each card) -->
+        <div class="max-w-sm rounded overflow-hidden shadow-lg my-5">
+            <img src="./images/Photo2.png" alt="" class="w-full grayscale"/>
+            <div class="px-6 py-4">
+                <div class="font-bold text-purple-500 text-xl mb-2">''Facts are stupid things.''</div>
+            </div>
+        </div>
+
+        <!-- Card 3 (Repeat this structure for each card) -->
+        <div class="max-w-sm rounded overflow-hidden shadow-lg my-5">
+            <img src="./images/Photo3.png" alt="" class="w-full grayscale"/>
+            <div class="px-6 py-4">
+                <div class="font-bold text-purple-500 text-xl mb-2">''The Holocaust was an obscene period in our nation's history. I mean in this century's history. But we all lived in this century. I didn't live in this century.''</div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="max-w-full h-40 bg-purple-900 flex">
+        <div class="h-40 w-1/4">
+          <p class="text-white font-sans text-lg ml-6 pt-6">Contact Us Never @</p>
+          <p class="text-white font-sans text-lg ml-6 pt-6">1-800-DNT-CALL</p>
+          </div>
+        <div class="h-40 w-2/4 flex flex-col items-center mt-4 justify-start">
+        <h1 class="text-white font-sans text-xl font-bold">Schools</h1>
+        <p class="text-white font-light text-base font-sans pt-16">Copyright &#169; Adam Dorniels</p>
+        </div>
+        <div class="h-40 w-1/4 mt-4">
+            <p class="text-white font-sans text-sm font-light">For any further questions go see someone else.</p>
+            <h1 class="text-white font-sans font-bold text-xlg pt-4">Suicide and Crisis Line: Dial 988</h1>
+            <h1 class="text-white font-sans font-bold text-xlg pt-4">Did we mention the Suicide and Crisis Line? Dial 988</h1>
+        </div>
+      </div>
+      
+      
+      
+<script src="./scripts.js"></script>
+</body>
+</html>
